@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MenuCart/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/MenuCart/static/js/main.6ea4f27a.chunk.js",
+    "main.js.map": "/MenuCart/static/js/main.6ea4f27a.chunk.js.map",
+    "runtime-main.js": "/MenuCart/static/js/runtime-main.2a2fc7a1.js",
+    "runtime-main.js.map": "/MenuCart/static/js/runtime-main.2a2fc7a1.js.map",
+    "static/css/2.f2512455.chunk.css": "/MenuCart/static/css/2.f2512455.chunk.css",
+    "static/js/2.7d31b61a.chunk.js": "/MenuCart/static/js/2.7d31b61a.chunk.js",
+    "static/js/2.7d31b61a.chunk.js.map": "/MenuCart/static/js/2.7d31b61a.chunk.js.map",
+    "static/js/3.d718cc4f.chunk.js": "/MenuCart/static/js/3.d718cc4f.chunk.js",
+    "static/js/3.d718cc4f.chunk.js.map": "/MenuCart/static/js/3.d718cc4f.chunk.js.map",
+    "index.html": "/MenuCart/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/MenuCart/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/MenuCart/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.7d31b61a.chunk.js.LICENSE.txt": "/MenuCart/static/js/2.7d31b61a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a2fc7a1.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.7d31b61a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.6ea4f27a.chunk.js"
+  ]
+}
