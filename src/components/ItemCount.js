@@ -31,7 +31,7 @@ function ItemCount({ stock = 0, initial }) {
 
   return (
     <>
-      <div className="bg-light gap-2 p-2 rounded d-flex flex-column justify-content-center">
+      <div className="gap-2 p-2 rounded d-flex flex-column justify-content-center">
         <div className="d-flex gap-3 align-items-center group ">
           <div
             className={`btn ${
