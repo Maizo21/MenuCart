@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/MenuCart/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/MenuCart/static/js/main.3c9690fe.chunk.js",
-    "main.js.map": "/MenuCart/static/js/main.3c9690fe.chunk.js.map",
-    "runtime-main.js": "/MenuCart/static/js/runtime-main.e6e765b6.js",
-    "runtime-main.js.map": "/MenuCart/static/js/runtime-main.e6e765b6.js.map",
+    "main.css": "/MenuCart/static/css/main.af9b1318.chunk.css",
+    "main.js": "/MenuCart/static/js/main.cc62cdbe.chunk.js",
+    "main.js.map": "/MenuCart/static/js/main.cc62cdbe.chunk.js.map",
+    "runtime-main.js": "/MenuCart/static/js/runtime-main.96e2065c.js",
+    "runtime-main.js.map": "/MenuCart/static/js/runtime-main.96e2065c.js.map",
     "static/css/2.f2512455.chunk.css": "/MenuCart/static/css/2.f2512455.chunk.css",
-    "static/js/2.c34f7ee3.chunk.js": "/MenuCart/static/js/2.c34f7ee3.chunk.js",
-    "static/js/2.c34f7ee3.chunk.js.map": "/MenuCart/static/js/2.c34f7ee3.chunk.js.map",
-    "static/js/3.a63bf9e9.chunk.js": "/MenuCart/static/js/3.a63bf9e9.chunk.js",
-    "static/js/3.a63bf9e9.chunk.js.map": "/MenuCart/static/js/3.a63bf9e9.chunk.js.map",
+    "static/js/2.285ca82b.chunk.js": "/MenuCart/static/js/2.285ca82b.chunk.js",
+    "static/js/2.285ca82b.chunk.js.map": "/MenuCart/static/js/2.285ca82b.chunk.js.map",
+    "static/js/3.a986854f.chunk.js": "/MenuCart/static/js/3.a986854f.chunk.js",
+    "static/js/3.a986854f.chunk.js.map": "/MenuCart/static/js/3.a986854f.chunk.js.map",
     "index.html": "/MenuCart/index.html",
     "static/css/2.f2512455.chunk.css.map": "/MenuCart/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/MenuCart/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.c34f7ee3.chunk.js.LICENSE.txt": "/MenuCart/static/js/2.c34f7ee3.chunk.js.LICENSE.txt"
+    "static/css/main.af9b1318.chunk.css.map": "/MenuCart/static/css/main.af9b1318.chunk.css.map",
+    "static/js/2.285ca82b.chunk.js.LICENSE.txt": "/MenuCart/static/js/2.285ca82b.chunk.js.LICENSE.txt",
+    "static/media/refresh.e3b6ba5e.svg": "/MenuCart/static/media/refresh.e3b6ba5e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6e765b6.js",
+    "static/js/runtime-main.96e2065c.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.c34f7ee3.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3c9690fe.chunk.js"
+    "static/js/2.285ca82b.chunk.js",
+    "static/css/main.af9b1318.chunk.css",
+    "static/js/main.cc62cdbe.chunk.js"
   ]
 }
