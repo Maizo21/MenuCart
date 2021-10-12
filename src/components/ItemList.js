@@ -17,6 +17,7 @@ const ItemList = () => {
             "6.088 Inch HD+Screen 4G LTE Smartphone Snapdragon 665 4GB 64GB 48.0MP+8.0MP+2.0MP",
           id: 1,
           stock: 10,
+          price: 8888,
         },
         {
           image:
@@ -26,6 +27,7 @@ const ItemList = () => {
             "Sistema Operativo: Android 8 Cámara principal: 12 MP Cámara frontal: 8 MP ºBatería: 3000 mAh.",
           id: 2,
           stock: 8,
+          price: 10999,
         },
         {
           image:
@@ -35,6 +37,7 @@ const ItemList = () => {
             "Procesador: Apple A14 Bionic Sistema Operativo: iOS 14  Memoria Interna: 128 GB, 256 GB.",
           id: 3,
           stock: 5,
+          price: 5000,
         },
         {
           image:
@@ -44,6 +47,7 @@ const ItemList = () => {
             "Procesador HiSilicon Kirin 990 5G Cámara frontal de 32 MP Capacidad de la batería: 3800 mAh",
           id: 4,
           stock: 2,
+          price: 2000,
         },
       ]);
     }, 2000);

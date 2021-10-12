@@ -3,7 +3,13 @@ import ItemCount from "./ItemCount";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const ItemDetail = ({ data, onClick }) => {
-  const { image, title, description, id, stock = 0 } = data;
+  const formatPeso = new Intl.NumberFormat("es-CL", {
+    style: "currency",
+    currency: "CLP",
+    minimumFractionDigits: 2,
+  });
+
+  const { image, title, description, id, stock = 0, price } = data;
 
   return (
     <>
@@ -23,6 +29,7 @@ const ItemDetail = ({ data, onClick }) => {
               <div className="d-flex flex-column justify-content-center align-items-center rounded-3">
                 <img src={image} alt={title} className="item-image rounded-3" />
                 <p>{title}</p>
+                <small>Precio: {formatPeso.format(price)}</small>
                 <small className="description">{description}</small>
 
                 <div className="d-flex">
