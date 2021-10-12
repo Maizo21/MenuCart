@@ -65,8 +65,10 @@ const ItemList = () => {
   return (
     <>
       {!itemData ? <Loading /> : null}
-      <div className=" d-flex gap-4">
-        {itemData && itemData.map((item_data) => <Item item={item_data} />)}
+      <div className="container itemList-container">
+        <div className="d-flex gap-2 flex-wrap">
+          {itemData && itemData.map((item_data) => <Item item={item_data} />)}
+        </div>
       </div>
     </>
   );

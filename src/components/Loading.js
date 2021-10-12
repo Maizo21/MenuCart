@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import icon from "./img/refresh.svg";
 import "./Loading.css";
 
-const Loading = () => {
+const Loading = (data) => {
   return (
     <>
       <div className="d-flex justify-content-center align-items-center flex-column">
