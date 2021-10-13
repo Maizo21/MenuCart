@@ -3,9 +3,9 @@ import Item from "./Item";
 import Loading from "./Loading";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const ItemList = () => {
+const ItemList = (data) => {
   let [itemData, setItemData] = useState(null);
-
+  /* 
   let allItemsData = new Promise((response, reject) => {
     setTimeout(() => {
       response([
@@ -52,18 +52,12 @@ const ItemList = () => {
       ]);
     }, 2000);
   });
-
+*/
   useEffect(() => {
     if (!itemData) {
-      allItemsData
-        .then((data) => {
-          setItemData(data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+      setItemData(data);
     }
-    console.log(itemData);
+    console.log(data);
   }, [itemData]);
 
   return (
@@ -71,7 +65,9 @@ const ItemList = () => {
       {!itemData ? <Loading /> : null}
       <div className="container itemList-container">
         <div className="d-flex gap-2 flex-wrap">
-          {itemData && itemData.map((item_data) => <Item item={item_data} />)}
+          {itemData &&
+            itemData != null &&
+            itemData.data.map((item_data) => <Item item={item_data} />)}
         </div>
       </div>
     </>
